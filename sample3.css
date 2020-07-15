@@ -1,0 +1,44 @@
+/* @theme sample3 */
+
+@import 'default'; /* defaultテーマのCSSを継承 */
+
+/* 見出し */
+section.heading h1 {
+	color: red;
+}
+
+section.heading h2 {
+	color: blue;
+}
+
+section.heading h3 {
+	color: yellow;
+}
+
+section.heading h4 {
+	color: pink;
+}
+
+section.heading h5 {
+	color: brown;
+}
+
+section.heading h6 {
+	color: green;
+}
+
+
+/* リスト */
+section.lists ul {
+	border: 1px solid #000000;
+}
+
+section.lists ul li {
+	padding: 10px;
+}
+
+/* p */
+section.paragraph p {
+	font-size: 120px;
+	text-align: center;
+}
